@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Assign_iii"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/mail"
+        android:contentDescription="@string/app_name" />
+    <TextView
+        android:layout_margin="15dp"
+        android:text="Check Your Mail"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_margin="15dp"
+        android:text="@string/we_have_sent_a_password_recover_n_instructions_to_your_email"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginEnd="45dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/open_your_email_app"
+        android:background="@color/purple_700"
+        android:textAllCaps="false"/>
+
+        <TextView android:layout_marginTop="25dp"
+            android:gravity="center"
+
+        android:text="@string/skip_i_ll_confirm_later"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginEnd="5dp"
+        android:layout_gravity="center"/>
+    <TextView
+
+        android:text="@string/did_not_recieve_the_email_check_your_spam_filter"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="75dp"
+
+        android:layout_gravity="center"/>
+
+
+    <TextView
+
+        android:text="    or,"
+        android:textColor="@color/black"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+       />
+    <TextView
+
+        android:text="try another email address"
+        android:textColor="@color/purple_700"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="-->"
+        android:id="@+id/next"/>
+
+
+
+
+
+
+</LinearLayout>

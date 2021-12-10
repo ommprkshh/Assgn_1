@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assign_1</string>
+    <string name="we_have_sent_a_password_recover_n_instructions_to_your_email">We have sent a password recover \n instructions to your email</string>
+    <string name="open_your_email_app">Open Your Email App</string>
+    <string name="skip_i_ll_confirm_later">Skip,I\'ll confirm later</string>
+    <string name="did_not_recieve_the_email_check_your_spam_filter">Did not recieve the email? Check your spam filter,</string>
+    <string name="or_try_another_email_address" />
+    <string name="logo_x">Logo-X</string>
+    <string name="todo">TODO</string>
+</resources>
